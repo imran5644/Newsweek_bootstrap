@@ -1,14 +1,23 @@
-.headline-image img{
-    height: 250px;
-    width: 350px;
-    padding: 0.5rem;
+header {
+  width: 100%;
+  background-color: red;
 }
 
-.headline1,
-.headline-detail,
-.top-story  {
-    width: 350px;
+.logo svg {
+    height: 45px;
+    width: 100px;
 }
 
+.user i,
+.bars i{
+    color: lightgray;
+    font-size: 25px;
+}
 
+.grey {
+    color: grey;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
 
