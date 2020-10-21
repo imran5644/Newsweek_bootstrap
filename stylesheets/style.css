@@ -19,9 +19,10 @@ header {
   background-color: red;
 }
 
+
 .logo svg {
-    height: 45px;
-    width: 100px;
+    /* height: 45px;
+    width: 100px; */
     fill: white;
 }
 
@@ -155,14 +156,14 @@ header {
 .subs-second img {
     position: absolute;
     width: 220px;
-    margin-left: 80px;
-    margin-top: -240px;
+    margin-left: -180px;
+    margin-top: 24px;
 }
 
 .subs-heading {
     position: absolute;
     z-index: 1;
-    margin-top: -200px;
+    margin-top: 40px;
 }
 
 .menu-button  button {
@@ -184,5 +185,11 @@ footer svg {
 .social-icons i {
     font-size: 32px;
     color: #808080;
+}
+
+.img-newsletter {
+    width: 200px;
+    height: 317px;
+
 }
 
