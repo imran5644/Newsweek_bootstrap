@@ -171,3 +171,18 @@ header {
     font-weight: 600;
 }
 
+footer svg {
+    width: 220px;
+    fill: red;
+}
+
+.footer-list {
+    color:grey;
+    list-style: none;
+}
+
+.social-icons i {
+    font-size: 32px;
+    color: #808080;
+}
+
