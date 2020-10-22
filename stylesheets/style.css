@@ -10,10 +10,6 @@ body {
     color: white;
 }
 
-.back1 {
-    background-color: white;
-}
-
 header {
   width: 100%;
   background-color: red;
@@ -40,7 +36,7 @@ header {
 }
 
 .headline-image img{
-  width: 340px;
+  width: 320px;
   height: 250px;
 }
 
@@ -123,7 +119,7 @@ header {
 }
 
 .myturn img {
-    width: 350px;
+    width: 320px;
     height: 250px;
 }
 
@@ -180,6 +176,7 @@ footer svg {
 .footer-list {
     color:grey;
     list-style: none;
+    font-size: 12px;
 }
 
 .social-icons i {
@@ -190,6 +187,20 @@ footer svg {
 .img-newsletter {
     width: 200px;
     height: 317px;
-
 }
 
+.magazine img{
+    width: 320px;
+}
+
+.editor-pick img {
+    width: 320px;
+}
+
+.digital{
+font-size: 10px;
+}
+
+.footer-logo svg {
+    width: 180px;
+}
