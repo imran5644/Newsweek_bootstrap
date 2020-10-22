@@ -2,3 +2,12 @@
     width: 55%;
     height: auto;
 }
+
+.turn img{
+    width: 100px;
+    height: 100px;
+}
+
+.turn h2 {
+    width: 100px;
+}
