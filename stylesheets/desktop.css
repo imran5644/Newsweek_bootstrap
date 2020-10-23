@@ -38,6 +38,7 @@ list-style-type: none;
 .menu1 {
     font-size: medium;
     font-weight: 700;
+    border-bottom: 2px solid lightgray;
   }
   
   .menu1 input {
@@ -49,6 +50,8 @@ list-style-type: none;
     color: grey;
     font-weight: 700;
     font-size: 12px;
+    border-bottom: 2px solid lightgray;
+    height: 30px;
   }
 
   .menu2 li:hover {
@@ -61,4 +64,8 @@ list-style-type: none;
 
 .black:hover {
     color: black;
+}
+
+.grey {
+    color: lightgrey;
 }
