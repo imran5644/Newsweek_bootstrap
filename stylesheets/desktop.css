@@ -11,3 +11,54 @@
 .turn h2 {
     width: 100px;
 }
+
+.menu1 ul,
+.menu2 ul {
+list-style-type: none;
+}
+
+@media (min-width:1390px) {
+.menu1 {
+  font-size: large;
+  font-weight: 700;
+}
+
+.menu1 input {
+    border: none;
+    width: 60px;
+}
+
+.menu2 ul {
+  color: grey;
+  font-weight: 700;
+  font-size: 14px;
+}
+}
+
+.menu1 {
+    font-size: medium;
+    font-weight: 700;
+  }
+  
+  .menu1 input {
+      border: none;
+      width: 60px;
+  }
+  
+  .menu2 ul {
+    color: grey;
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  .menu2 li:hover {
+    color:  red;
+   }
+
+.black {
+  color: black;
+}
+
+.black:hover {
+    color: black;
+}
