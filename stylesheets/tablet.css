@@ -60,3 +60,16 @@
 .mar-r {
     margin-right: 50px;
 }
+
+.magazine-section img {
+    width: 150px;
+    height: 230px;
+}
+
+.image-diff img {
+    height: 200px;
+}
+
+.bolder {
+    width:150px;
+}
