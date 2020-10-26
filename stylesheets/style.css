@@ -147,19 +147,36 @@ header {
 .subs-first img {
     position: relative;
     width: 220px;
+    margin-left: 50px;
 }
 
 .subs-second img {
     position: absolute;
     width: 220px;
-    margin-left: -180px;
-    margin-top: 24px;
+    margin-left: 80px;
+    margin-top: -150px;
 }
 
 .subs-heading {
     position: absolute;
     z-index: 1;
-    margin-top: 40px;
+    margin-top: -20px;
+}
+
+.subs-heading h2 {
+    font-size: 12px;
+    font-weight: 700;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.subs-package {
+    font-size: 10px;
+    margin-left: 40px;
+}
+
+.subs-package p {
+    width: 200px;
 }
 
 .menu-button  button {
@@ -185,8 +202,8 @@ footer svg {
 }
 
 .img-newsletter {
-    width: 200px;
-    height: 317px;
+    width: 320px;
+    height: 150px;
 }
 
 .magazine img{
@@ -213,7 +230,34 @@ width: 320px;
     width: 320px;
 }
 
-.us-sidesection img{
+.us-sidesection img {
   width: 100px;
   height: 100px;
 }
+
+.subscribe h3,
+.newsletter h3 {
+  font-size: small;
+  font-weight: 700;
+  color: orangered;
+}
+
+.subscribe img {
+    height: 180px;
+    width: 150px;
+}
+
+.newsletter img {
+    width: 320px;
+}
+
+.newsletter h2 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.newsletter p {
+    font-size: 15px;
+    width: 250px;
+}
+
