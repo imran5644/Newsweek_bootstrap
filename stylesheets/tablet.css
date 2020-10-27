@@ -99,12 +99,12 @@
 @media (min-width: 991px) {
   .menu1 ul,
   .menu2 ul {
-  list-style-type: none;
-  font-size: small;
+    list-style-type: none;
+    font-size: small;
 }
-.menu1 {
-  font-size: 12px;
-  font-weight: 700;
+  .menu1 {
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .menu2 {
@@ -136,7 +136,7 @@
 
 .debate1 h2{
   width: 200px;
- font-size: small;
+  font-size: small;
 }
 
 .vs {
@@ -151,7 +151,8 @@
   margin-top: 190px;
   margin-left: 50%;
 }
-/* ===Editors pick are overlapping one another ======*/
+
+/* ===Editors pick are overlapping one another ====== */
 .editors-pick img,
 .editors-pick p,
 .editors-pick h2 {

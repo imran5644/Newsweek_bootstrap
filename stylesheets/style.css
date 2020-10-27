@@ -190,7 +190,8 @@ button {
   color: white;
   border: none;
 }
-/*====== added the fontcolor and font size ======*/
+
+/* ====== added the fontcolor and font size ====== */
 .menu-button button {
   font-size: 90%;
   width: 120px;
