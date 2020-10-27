@@ -352,6 +352,10 @@ button {
     border: none;
 }
 
+.newsletter-input input{
+  width: 150px;
+}
+
 
 
 

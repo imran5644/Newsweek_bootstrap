@@ -73,3 +73,26 @@
 .tab-adjust {
     width:150px;
 }
+
+.subscribe {
+    background-color: lightgray;
+    width: 800px;
+}
+
+.subs-heading {
+    position: absolute;
+    z-index: 1;
+    margin-top: -20px;
+}
+
+.md-mt {
+    margin-top: -20px;
+    margin-bottom: 70px;
+}
+
+.md-mmt {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-left: 90px;
+}
+
