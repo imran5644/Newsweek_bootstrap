@@ -116,6 +116,10 @@
   font-size: 12px;
 }
 
+.login a {
+  color: white;
+}
+
 .menu1 a:hover,
 .menu2 a:hover {
   color: red;
@@ -128,6 +132,4 @@
   height: 230px;
 }
 
-.login a {
-  color: white;
-}
+
