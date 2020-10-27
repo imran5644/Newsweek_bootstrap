@@ -25,7 +25,7 @@ footer svg {
 }
 
 .user i,
-.bars i{
+.bars i {
   color: lightgray;
   font-size: 25px;
 }
@@ -37,20 +37,19 @@ footer svg {
   font-weight: 900;
 }
 
-.headline-image img{
+.headline-image img {
   width: 320px;
   height: 250px;
 }
 
-.headline1 h2
- {
+.headline1 h2 {
   font-size: large;
   font-weight: 900;
   font-family: Arial, Helvetica, sans-serif;
   width: 320px;
 }
 
-.opinion h2{
+.opinion h2 {
   width: 270px;
   font-size: large;
   font-weight: 900;
@@ -62,7 +61,7 @@ footer svg {
   font-weight: 100;
 }
 
-.headline-2  h2 {
+.headline-2 h2 {
   width: 220px;
 }
 
@@ -108,7 +107,7 @@ footer svg {
   border-bottom: 2px solid lightgray;
 }
 
-.more-stories img{
+.more-stories img {
   width: 100px;
   height: 100px;
 }
