@@ -7,11 +7,11 @@
 A clone of The NextWeek landing page made for the Microverse FullStack program.
 This is a responsive site and will scale as needed to different devices.
 
-![desktop](screenshots/desktop.png)
+![desktop](screenshots/desktop.PNG)
 
-![tablet](screenshots/tablet.png)
+![tablet](screenshots/tablet.PNG)
 
-![mobile](screenshots/mobile.png)
+![mobile](screenshots/mobile.PNG)
 
 ## Built With
 
