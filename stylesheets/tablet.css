@@ -95,3 +95,75 @@
   margin-bottom: 70px;
   margin-left: 90px;
 }
+ /* ====== added Screens of size 992 - 1028 px, the navbar navigation links  ======*/
+@media (min-width: 991px) {
+  .menu1 ul,
+  .menu2 ul {
+  list-style-type: none;
+  font-size: small;
+}
+.menu1 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.menu2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.menu1 a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu1 input {
+  border: none;
+  width: 60px;
+}
+
+.menu2 a {
+  color: rgb(87, 68, 68);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.menu1 a:hover,
+.menu2 a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.debate1 h2{
+  width: 200px;
+ font-size: small;
+}
+
+.vs {
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  padding-left: 10px;
+  padding-top: 8px;
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 50%;
+}
+/* ===Editors pick are overlapping one another ======*/
+.editors-pick img,
+.editors-pick p,
+.editors-pick h2 {
+  width: 210px;
+}
+
+.newsletter img {
+  width: 150px;
+  height: 300px;
+}
+
+.newsletter-input input {
+  width: 100px;
+}
+}

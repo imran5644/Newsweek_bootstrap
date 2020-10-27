@@ -20,7 +20,7 @@ This is a responsive site and will scale as needed to different devices.
 
 ## Live Demo
 
-[Live Demo Link](imran5644.github.io/Newsweek_bootstrap/)
+[Live Demo Link](https://imran5644.github.io/Newsweek_bootstrap/)
 
 ##  Getting Started
 

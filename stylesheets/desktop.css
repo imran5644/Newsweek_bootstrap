@@ -83,7 +83,7 @@
 .editors-pick img,
 .editors-pick p,
 .editors-pick h2 {
-  width: 250px;
+  width: 240px;
 }
 
 .newsletter img {
@@ -94,6 +94,7 @@
 .subscribe {
   background-color: lightgray;
   width: 800px;
+  height: 374px;
 }
 
 .subscribe h3 {
@@ -110,3 +111,37 @@
   margin-bottom: 70px;
   margin-left: 90px;
 }
+
+.menu1 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.menu2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.menu1 a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu1 input {
+  border: none;
+  width: 60px;
+}
+
+.menu2 a {
+  color: rgb(87, 68, 68);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.menu1 a:hover,
+.menu2 a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+

@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  overflow-x: hidden;
 }
 
 .date {
@@ -189,11 +190,13 @@ button {
   color: white;
   border: none;
 }
-
+/*====== added the fontcolor and font size ======*/
 .menu-button button {
-  font-size: 50%;
-  width: 90px;
-  font-weight: 600;
+  font-size: 90%;
+  width: 120px;
+  font-weight: 900;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .footer-list {
@@ -222,6 +225,10 @@ button {
 
 .digital {
   font-size: 10px;
+}
+
+.row {
+  border-bottom: 1px solid lightgray;
 }
 
 .footer-logo svg {
