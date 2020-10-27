@@ -21,18 +21,18 @@
   .menu1 {
     font-size: large;
     font-weight: 700;
-   }
+  }
 
   .menu1 input {
     border: none;
     width: 60px;
-   }
+  }
 
   .menu2 ul {
     color: grey;
     font-weight: 700;
     font-size: 14px;
-   }
+  }
 }
 
 .menu1 {
@@ -45,7 +45,7 @@
   border: none;
   width: 60px;
 }
-  
+
 .menu2 ul {
   color: grey;
   font-weight: 700;
@@ -55,7 +55,7 @@
 }
 
 .menu2 li:hover {
-  color:  red;
+  color: red;
 }
 
 .black {
