@@ -175,3 +175,7 @@
     height: 230px;
   }
 }
+
+.login a {
+  color: white;
+}
