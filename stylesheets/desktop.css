@@ -131,3 +131,15 @@
   width: 200px;
   height: 230px;
 }
+
+.editors-pick img,
+.editors-pick p,
+.editors-pick h2{
+  width: 220px;
+}
+
+.newsletter-input button {
+  width: 150px;
+}
+
+
