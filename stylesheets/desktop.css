@@ -59,11 +59,6 @@
   color: lightgrey;
 }
 
-.magazine-section img {
-  width: 250px;
-  height: 280px;
-}
-
 .image-diff img {
   height: 320px;
   margin-top: -70px;
@@ -126,7 +121,8 @@
   color: red;
   text-decoration: none;
 }
-/*=== Pictures from in the magazine sections fixed ==== */
+
+/* === Pictures from in the magazine sections fixed ==== */
 .magazine-section img {
   width: 200px;
   height: 230px;
