@@ -1,98 +1,98 @@
 .logo svg {
-    width: 55%;
-    height: auto;
+  width: 55%;
+  height: auto;
 }
 
 .turn img{
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .turn h2 {
-    width: 100px;
+  width: 100px;
 }
 
 .more-stories {
-    height: 100px;
-    width: 360px;
+  height: 100px;
+  width: 360px;
 }
 
 .digital {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .debate1 h2 {
-    width: 90%;
+  width: 90%;
 }
 
 .debate1 p {
-    width: 100%;
+  width: 100%;
 }
 
 .vs {
-    border-radius: 50%;
-    color: white;
-    background-color: black;
-    height: 40px;
-    width: 40px;
-    padding-left: 10px;
-    padding-top: 8px;
-    position: absolute;
-    margin-top: 160px;
-    margin-left: 40%;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  padding-left: 10px;
+  padding-top: 8px;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 40%;
 }
 
 .size {
-    border-bottom: 4px solid lightgray;
-    width: 720px;
+  border-bottom: 4px solid lightgray;
+  width: 720px;
 }
 
 .thick {
-    border: 2px solid lightgray;
-    width: 720px;
-    position: relative;
+  border: 2px solid lightgray;
+  width: 720px;
+  position: relative;
 }
 
 .opinion h2 {
-    width: 100%;
+  width: 100%;
 }
 
 .mar-r {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
 .magazine-section img {
-    width: 150px;
-    height: 230px;
+  width: 150px;
+  height: 230px;
 }
 
 .image-diff img {
-    height: 200px;
+  height: 200px;
 }
 
 .tab-adjust {
-    width:150px;
+  width:150px;
 }
 
 .subscribe {
-    background-color: lightgray;
-    width: 800px;
+  background-color: lightgray;
+  width: 800px;
 }
 
 .subs-heading {
-    position: absolute;
-    z-index: 1;
-    margin-top: -20px;
+  position: absolute;
+  z-index: 1;
+  margin-top: -20px;
 }
 
 .md-mt {
-    margin-top: -20px;
-    margin-bottom: 70px;
+  margin-top: -20px;
+  margin-bottom: 70px;
 }
 
 .md-mmt {
-    margin-top: 100px;
-    margin-bottom: 70px;
-    margin-left: 90px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  margin-left: 90px;
 }
 

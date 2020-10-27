@@ -1,15 +1,15 @@
 .logo svg {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .turn img{
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .turn h2 {
-    width: 100px;
+  width: 100px;
 }
 
 .menu1 ul,
@@ -24,8 +24,8 @@ list-style-type: none;
 }
 
 .menu1 input {
-    border: none;
-    width: 60px;
+  border: none;
+  width: 60px;
 }
 
 .menu2 ul {
@@ -36,26 +36,26 @@ list-style-type: none;
 }
 
 .menu1 {
-    font-size: medium;
-    font-weight: 700;
-    border-bottom: 2px solid lightgray;
+  font-size: medium;
+  font-weight: 700;
+  border-bottom: 2px solid lightgray;
   }
   
-  .menu1 input {
-      border: none;
-      width: 60px;
+.menu1 input {
+  border: none;
+  width: 60px;
   }
   
-  .menu2 ul {
-    color: grey;
-    font-weight: 700;
-    font-size: 12px;
-    border-bottom: 2px solid lightgray;
-    height: 30px;
+.menu2 ul {
+  color: grey;
+  font-weight: 700;
+  font-size: 12px;
+  border-bottom: 2px solid lightgray;
+  height: 30px;
   }
 
-  .menu2 li:hover {
-    color:  red;
+.menu2 li:hover {
+  color:  red;
    }
 
 .black {
@@ -63,11 +63,11 @@ list-style-type: none;
 }
 
 .black:hover {
-    color: black;
+  color: black;
 }
 
 .grey {
-    color: lightgrey;
+  color: lightgrey;
 }
 
 .magazine-section img {

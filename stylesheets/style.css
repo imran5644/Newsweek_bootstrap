@@ -1,13 +1,13 @@
 body {
-    background-color: white;
+  background-color: white;
 }
 
 .date {
-    color: white;
+  color: white;
 }
 
 .login {
-    color: white;
+  color: white;
 }
 
 header {
@@ -17,20 +17,20 @@ header {
 
 
 .logo svg {
-    fill: white;
+  fill: white;
 }
 
 .user i,
 .bars i{
-    color: lightgray;
-    font-size: 25px;
+  color: lightgray;
+  font-size: 25px;
 }
 
 .grey {
-    color: grey;
-    font-size: medium;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 900;
+  color: grey;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 900;
 }
 
 .headline-image img{
@@ -40,64 +40,64 @@ header {
 
 .headline1 h2
  {
-    font-size: large;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 320px;
+  font-size: large;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 320px;
 }
 
 .opinion h2{
-    width: 270px;
-    font-size: large;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
+  width: 270px;
+  font-size: large;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .headline-detail {
-    width: 330px;
-    font-weight: 100;
+  width: 330px;
+  font-weight: 100;
 }
 
 .headline-2  h2 {
-    width: 220px;
+  width: 220px;
 }
 
 .headline-2 img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .headline-2 p {
-    width: 230px;
+  width: 230px;
 }
 
 .size {
-    border-bottom: 4px solid lightgray;
-    width: 330px;
+  border-bottom: 4px solid lightgray;
+  width: 330px;
 }
 
 .debate-img img {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 .bp {
-    border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 .gray {
-    color: gray;
+  color: gray;
 }
 
 .thickness {
-    font-weight: 500;
-    width: 300px;
+  font-weight: 500;
+  width: 300px;
 }
 
 .thick {
-    border: 2px solid lightgray;
-    width: 300px;
-    position: relative;
+  border: 2px solid lightgray;
+  width: 300px;
+  position: relative;
 }
 
 .debate2 {
@@ -105,115 +105,115 @@ header {
 }
 
 .more-stories img{
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .stories h2 {
-    font-size: large;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 220px;
+  font-size: large;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 220px;
 }
 
 .stories p {
-    width: 220px;
+  width: 220px;
 }
 
 .myturn img {
-    width: 320px;
-    height: 250px;
+  width: 320px;
+  height: 250px;
 }
 
 .nursing-homes {
-    border: 1px solid lightgray;
+  border: 1px solid lightgray;
 }
 
 .cover-headline h2{
-    color: red;
-    font-size: 14px;
-    font-weight: 500;
+  color: red;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .cover {
-    background-color: red;
-    color: white;
+  background-color: red;
+  color: white;
 }
 
 .bolder {
-    font-weight: 700;
-    font-size: small;
-    width: 330px;
+  font-weight: 700;
+  font-size: small;
+  width: 330px;
 }
 
 .subs-first img {
-    position: relative;
-    width: 220px;
-    margin-left: 50px;
+  position: relative;
+  width: 220px;
+  margin-left: 50px;
 }
 
 .subs-second img {
-    position: absolute;
-    width: 220px;
-    margin-left: 80px;
-    margin-top: -150px;
+  position: absolute;
+  width: 220px;
+  margin-left: 80px;
+  margin-top: -150px;
 }
 
 .subs-heading {
-    position: absolute;
-    z-index: 1;
-    margin-top: -20px;
+  position: absolute;
+  z-index: 1;
+  margin-top: -20px;
 }
 
 .subs-heading h2 {
-    font-size: 12px;
-    font-weight: 700;
-    width: 200px;
-    margin-left: 50px;
+  font-size: 12px;
+  font-weight: 700;
+  width: 200px;
+  margin-left: 50px;
 }
 
 .subs-package {
-    font-size: 10px;
-    margin-left: 40px;
+  font-size: 10px;
+  margin-left: 40px;
 }
 
 .subs-package p {
-    width: 200px;
+  width: 200px;
 }
 
 .menu-button  button {
-    font-size: 50%;
-    width: 90px;
-    font-weight: 600;
+  font-size: 50%;
+  width: 90px;
+  font-weight: 600;
 }
 
 footer svg {
-    width: 220px;
-    fill: red;
+  width: 220px;
+  fill: red;
 }
 
 .footer-list {
-    color:grey;
-    list-style: none;
-    font-size: 12px;
+  color:grey;
+  list-style: none;
+  font-size: 12px;
 }
 
 .social-icons i {
-    font-size: 32px;
-    color: #808080;
+  font-size: 32px;
+  color: #808080;
 }
 
 .img-newsletter {
-    width: 320px;
-    height: 150px;
+  width: 320px;
+  height: 150px;
 }
 
 .magazine img{
-    width: 320px;
+  width: 320px;
 }
 
 .editor-pick img {
-    width: 320px;
+  width: 320px;
 }
 
 .digital{
@@ -221,7 +221,7 @@ font-size: 10px;
 }
 
 .footer-logo svg {
-    width: 180px;
+  width: 180px;
 }
 
 .us img {
@@ -229,7 +229,7 @@ width: 320px;
 }
 
 .us p {
-    width: 320px;
+  width: 320px;
 }
 
 .us-sidesection img {
@@ -245,111 +245,111 @@ width: 320px;
 }
 
 .subscribe img {
-    height: 180px;
-    width: 150px;
+  height: 180px;
+  width: 150px;
 }
 
 .newsletter img {
-    width: 320px;
+  width: 320px;
 }
 
 .newsletter h2 {
-    font-size: 15px;
-    font-weight: 700;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .newsletter p {
-    font-size: 15px;
-    width: 250px;
+  font-size: 15px;
+  width: 250px;
 }
 
 .debate1 h2 {
-    width: 250px;
+  width: 250px;
 }
 
 .debate1 p {
-    width: 250px;
+  width: 250px;
 }
 
 .vs {
-    border-radius: 50%;
-    color: white;
-    background-color: black;
-    height: 40px;
-    width: 40px;
-    padding-left: 10px;
-    padding-top: 8px;
-    position: absolute;
-    margin-top: 210px;
-    margin-left: 40%;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  padding-left: 10px;
+  padding-top: 8px;
+  position: absolute;
+  margin-top: 210px;
+  margin-left: 40%;
 }
 
 .border-top {
-    border-top: 1px solid lightgray;
+  border-top: 1px solid lightgray;
 }
 
 .orangered {
-    color: orangered;
-    font-size: medium;
+  color: orangered;
+  font-size: medium;
 }
 
 .featured-story {
-    padding-bottom: 4px;
+  padding-bottom: 4px;
 }
 
 .icon-n {
-    flex: none;
-    display: inline-block;
-    width: 25px;
-    height: 24px;
-    background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
-    margin-right: 10px;
+  flex: none;
+  display: inline-block;
+  width: 25px;
+  height: 24px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
+  margin-right: 10px;
 }
 
 .free-trials {
-    border: 1px solid lightgray;
-    padding: 20px;
-    background-color: lightgray;
+  border: 1px solid lightgray;
+  padding: 20px;
+  background-color: lightgray;
 }
 
 .trial-offer {
-    margin-top: -35px;
-    margin-left: 30px;
-    width: 150px;
-    font-size: small;
+  margin-top: -35px;
+  margin-left: 30px;
+  width: 150px;
+  font-size: small;
 }
 
 .free-trials input {
-    border: none;
+  border: none;
 }
 
 .free-trials button {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .wid {
-    width: 280px;
+  width: 280px;
 }
 
 .magazine-section {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .magazine-header {
-    font-family: bold;
-    margin-left: -10px;
-    margin-top: 5px;
-    font-size: small;
+  font-family: bold;
+  margin-left: -10px;
+  margin-top: 5px;
+  font-size: small;
 }
 
 .f-weight {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 button {
-    background-color: red;
-    color: white;
-    border: none;
+  background-color: red;
+  color: white;
+  border: none;
 }
 
 .newsletter-input input{
