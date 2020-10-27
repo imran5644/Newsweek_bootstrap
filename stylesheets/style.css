@@ -15,6 +15,10 @@ header {
   background-color: red;
 }
 
+footer svg {
+  width: 220px;
+  fill: red;
+}
 
 .logo svg {
   fill: white;
@@ -129,7 +133,7 @@ header {
   border: 1px solid lightgray;
 }
 
-.cover-headline h2{
+.cover-headline h2 {
   color: red;
   font-size: 14px;
   font-weight: 500;
@@ -181,19 +185,20 @@ header {
   width: 200px;
 }
 
-.menu-button  button {
+button {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.menu-button button {
   font-size: 50%;
   width: 90px;
   font-weight: 600;
 }
 
-footer svg {
-  width: 220px;
-  fill: red;
-}
-
 .footer-list {
-  color:grey;
+  color: grey;
   list-style: none;
   font-size: 12px;
 }
@@ -208,7 +213,7 @@ footer svg {
   height: 150px;
 }
 
-.magazine img{
+.magazine img {
   width: 320px;
 }
 
@@ -216,8 +221,8 @@ footer svg {
   width: 320px;
 }
 
-.digital{
-font-size: 10px;
+.digital {
+  font-size: 10px;
 }
 
 .footer-logo svg {
@@ -225,7 +230,7 @@ font-size: 10px;
 }
 
 .us img {
-width: 320px;
+  width: 320px;
 }
 
 .us p {
@@ -346,16 +351,6 @@ width: 320px;
   font-weight: 700;
 }
 
-button {
-  background-color: red;
-  color: white;
-  border: none;
-}
-
-.newsletter-input input{
+.newsletter-input input {
   width: 150px;
 }
-
-
-
-
