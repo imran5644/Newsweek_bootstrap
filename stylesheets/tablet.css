@@ -96,7 +96,7 @@
   margin-left: 90px;
 }
 
- /* ====== added Screens of size 992 - 1028 px, the navbar navigation links  ====== */
+/* ====== added Screens of size 992 - 1028 px, the navbar navigation links  ====== */
 @media (min-width: 991px) {
   .menu1 ul,
   .menu2 ul {
@@ -136,7 +136,7 @@
     text-decoration: none;
   }
 
-  .debate1 h2{
+  .debate1 h2 {
     width: 200px;
     font-size: small;
   }
@@ -154,7 +154,7 @@
     margin-left: 50%;
   }
 
-/* ===Editors pick are overlapping one another ====== */
+  /* ===Editors pick are overlapping one another ====== */
   .editors-pick img,
   .editors-pick p,
   .editors-pick h2 {
