@@ -166,4 +166,9 @@
 .newsletter-input input {
   width: 100px;
 }
+
+.magazine-section img {
+  width: 200px;
+  height: 230px;
+}
 }

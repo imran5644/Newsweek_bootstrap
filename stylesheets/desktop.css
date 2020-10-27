@@ -143,5 +143,10 @@
   color: red;
   text-decoration: none;
 }
+/*=== Pictures from in the magazine sections fixed ==== */
+.magazine-section img {
+  width: 200px;
+  height: 230px;
+}
 
 
