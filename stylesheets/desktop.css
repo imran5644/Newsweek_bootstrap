@@ -1,0 +1,152 @@
+.logo svg {
+  width: 100%;
+  height: auto;
+}
+
+.turn img {
+  width: 100px;
+  height: 100px;
+}
+
+.turn h2 {
+  width: 100px;
+}
+
+.menu1 ul,
+.menu2 ul {
+  list-style-type: none;
+}
+
+@media (min-width: 1390px) {
+  .menu1 {
+    font-size: large;
+    font-weight: 700;
+  }
+
+  .menu1 input {
+    border: none;
+    width: 60px;
+  }
+
+  .menu2 ul {
+    color: grey;
+    font-weight: 700;
+    font-size: 14px;
+  }
+}
+
+.menu2 ul {
+  color: grey;
+  font-weight: 700;
+  font-size: 12px;
+  border-bottom: 2px solid lightgray;
+  height: 30px;
+}
+
+.menu2 li:hover {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+
+.black:hover {
+  color: black;
+}
+
+.grey {
+  color: lightgrey;
+}
+
+.image-diff img {
+  height: 320px;
+  margin-top: -70px;
+}
+
+.newsletter img {
+  width: 200px;
+  height: 300px;
+}
+
+.subscribe {
+  background-color: lightgray;
+  width: 800px;
+  height: 374px;
+}
+
+.subscribe h3 {
+  margin-top: 50px;
+}
+
+.md-mt {
+  margin-top: -20px;
+  margin-bottom: 70px;
+}
+
+.md-mmt {
+  margin-top: 100px;
+  margin-bottom: 70px;
+  margin-left: 90px;
+}
+
+.menu1 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.menu2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.menu1 a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu1 input {
+  border: none;
+  width: 60px;
+}
+
+.menu2 a {
+  color: rgb(87, 68, 68);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.login a {
+  color: white;
+}
+
+.menu1 a:hover,
+.menu2 a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+/* === Pictures from in the magazine sections fixed ==== */
+.magazine-section img {
+  width: 240px;
+  height: 230px;
+}
+
+.magazine-section p {
+  width: 255px;
+}
+
+.editors-pick img,
+.editors-pick p,
+.editors-pick h2 {
+  width: 220px;
+}
+
+.newsletter-input button {
+  width: 150px;
+}
+
+.newsletter-input input {
+  width: 150px;
+  margin-bottom: 10px;
+}

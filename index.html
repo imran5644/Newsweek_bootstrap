@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Newsweek</title>
+   <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="stylesheets/tablet.css">
+   <link rel="stylesheet" media="screen and (min-width: 1024px)" href="stylesheets/desktop.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <header class="container-fluid">
+      <nav class="d-flex justify-content-between col-md-12 pt-1">
+         <div class="date col-lg-2 d-none d-lg-block d-xl-block">
+            Wed, Oct 21, 2020
+         </div>
+         <div class="logos col-md-6 col-4 col-lg-2 ml-n2 pt-1 pb-1">
+            <a class="logo" href="#">
+               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
+                  style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+                  <g>
+                     <path class="st0"
+                        d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+                     </path>
+                  </g>
+               </svg>
+            </a>
+         </div>
+
+         <!-- ========= Login link in navbar is clickable ======== -->
+         <div class="col-md-6 col-8 col-lg-1 d-flex mr-n1 justify-content-end">
+            <!-- ======Login link should disappear on all screens below of width 768px ===== -->
+         <div class="login d-none d-sm-none d-md-block d-lg-block  pt-1"><a href="#">Login</a></div>
+         <div class="user pl-5 pt-1 d-md-none d-lg-none">
+            <i class="fa fa-user"></i>
+         </div>
+
+         <div class="pl-3 pt-1 pb-2 menu-button">
+            <button type="button" class="btn btn-warning rounded-pill">SUBSCRIBE <i
+                  class="fa fa-angle-right"></i></button>
+         </div>
+
+         <div class="bars pl-3 pt-1 d-lg-none d-xl-none">
+            <i class="fa fa-bars"></i>
+         </div>
+      </div>
+      </nav>
+   </header>
+
+   <main>
+  <!--  ========= Main navigation links is clickable links ======= -->
+      <div class="container-fluid p-1">
+         <div class="row">
+         <div class="menu1 mt-2 d-none d-lg-block col-lg-12">
+            <ul class="d-flex justify-content-around ml-n3">
+            <li><a href="#">U.S. </a> &nbsp; <span class="grey">|</span></li>
+             <li><a href="#">World </a> &nbsp;<span class="grey">|</span></li>
+             <li><a href="#">Business</a> &nbsp; <span class="grey">|</span> </li>
+             <li><a href="#">Tech & Science </a> &nbsp; <span class="grey">|</span> </li>
+             <li><a href="#">Culture </a> &nbsp; <span class="grey">|</span> </li>
+             <li><a href="#">Newsgeek </a> &nbsp; <span class="grey">|</span> </li>
+             <li><a href="#">Sports </a> &nbsp; <span class="grey">|</span> </li>
+             <li><a href="#">Health </a> &nbsp; <span class="grey">|</span> </li>
+             <li><a href="#">The Debate </a> &nbsp;<span class="grey">|</span> </li>
+             <li><a href="#">Vantage </a> &nbsp;<span class="grey">|</span> </li>
+             <li><a href="#">Weather</a></li>
+             <li><input type="search" placeholder="Search"><i class="fa fa-search mr-5"></i></li>
+            </ul>
+         </div>
+          <div class="menu2 d-none d-lg-block col-lg-12 pt-3 bp-3">
+             <ul class="d-flex">
+                  <li class="ml-2 black"><a href="#">TRENDING</a></li>
+                  <li class="ml-4"><a href="#">DONALD TRUMP</a></li>
+                  <li class="ml-4"><a href="#">JOE BIDEN</a></li>
+                  <li class="ml-4"><a href="#">STIMULUS PACKAGE</a> </li>
+                  <li class="ml-4"><a href="#">CORONAVIRUS </a></li>
+                  <li class="ml-4"><a href="#">AMY CONEY BARRETT</a></li>
+                  <li class="ml-4"><a href="#">2020 ELECTION</a></li>
+                  <li class="ml-4"><a href="#">COUNTIES THAT COUNT</a></li>
+             </ul>
+          </div>
+         </div>
+
+
+         <div class="row">
+            <div class="col-12 col-md-6 order-md-2 col-lg-4 order-1 back1">
+               <h3 class="top-story pt-2 pl-3 grey">TOP STORY</h3>
+               <div class="headline-image pl-3 pr-1">
+                  <img
+                     src="https://d.newsweek.com/en/full/1654970/mnuchin.jpg?w=591&h=364&f=355105b3423c74d13847a036d489dd7d" alt="headline-image"/>
+               </div>
+               <div class="headline1 pt-1 pl-4">
+                  <h2>Stimulus Deal Pressure Mounts on Mnuchin as Pelosi's Deadline Looms</h2>
+               </div>
+
+               <div class="headline-detail pl-4">
+                  <p>The Treasury Secretary has been tasked by the president to tend the stalemate and secure a
+                     bipartisan agreement, as Election Day nears.</p>
+               </div>
+
+               <div class="d-flex headline-2 pl-4">
+                  <img
+                     src="https://d.newsweek.com/en/full/1654889/fe-economists-banner.jpg?w=591&h=364&l=58&t=51&f=d414c91a541923feac453affe5abce40" alt="headline-image"/>
+                  <div class="headline1 pl-2">
+                     <h2>Massive Stimulus Spending Is the Only Fix for Ailing Economy, Experts Say</h2>
+                  </div>
+               </div>
+               <div class="headline-detail pl-4">
+                  <p>What's the most critical move the next president should make to restore the country's economic
+                     health? Newsweek asked 12 top financial experts to offer the next occupant of the White House their
+                     best advice.</p>
+               </div>
+
+
+               <div class="col-12 d-md-flex d-none">
+                  <div class="myturn pl-3">
+                     <h3 class="grey">MY TURN</h3>
+                     <div class="row">
+                     <div class="turn col-12 col-md-4">
+                     <img
+                        src="https://d.newsweek.com/en/full/1654844/best-friends-love-relationships.jpg?w=397&h=397&f=459b5cc7b39a782b06f18534372af8c3" alt="headline-image" />
+                     <h2 class="grey">'I Fell in Love With My Best Friend and Finally Asked Her Out'</h2>
+                  </div>
+
+                     <div class="turn col-12 col-md-4">
+                     <img
+                     src="https://d.newsweek.com/en/full/1654844/best-friends-love-relationships.jpg?w=397&h=397&f=459b5cc7b39a782b06f18534372af8c3" alt="headline-image"/>
+                    <h2 class="grey">'I Fell in Love With My Best Friend and Finally Asked Her Out'</h2> 
+                  </div>
+
+                  <div class="turn col-12 col-md-4">
+                    <img
+                    src="https://d.newsweek.com/en/full/1654844/best-friends-love-relationships.jpg?w=397&h=397&f=459b5cc7b39a782b06f18534372af8c3" alt="headline-image"/>
+                    <h2 class="grey">'I Fell in Love With My Best Friend and Finally Asked Her Out'</h2>
+                  </div>
+               </div>
+            
+       
+               <h3 class="grey">TRAVEL & CULTURE</h3>
+                <div class="row">
+                   <div class="turn col-12 col-md-4">
+                    <img
+                    src="https://d.newsweek.com/en/full/1654844/best-friends-love-relationships.jpg?w=397&h=397&f=459b5cc7b39a782b06f18534372af8c3" alt="headline-image"/>
+                 <h2 class="grey">'I Fell in Love With My Best Friend and Finally Asked Her Out'</h2>
+               </div>
+
+               <div class="turn col-12 col-md-4">
+                 <img
+                 src="https://d.newsweek.com/en/full/1654844/best-friends-love-relationships.jpg?w=397&h=397&f=459b5cc7b39a782b06f18534372af8c3" alt="headline-image"/>
+              <h2 class="grey">'I Fell in Love With My Best Friend and Finally Asked Her Out'</h2>
+            </div>
+
+            <div class="turn col-12 col-md-4">
+              <img
+              src="https://d.newsweek.com/en/full/1654844/best-friends-love-relationships.jpg?w=397&h=397&f=459b5cc7b39a782b06f18534372af8c3" alt="headline-image" />
+              <h2 class="grey">'I Fell in Love With My Best Friend and Finally Asked Her Out'</h2>
+            </div>
+         </div>
+      </div>
+   </div>
+            
+               <div class="col-12 ml-3">
+                  <h3 class="grey d-md-flex d-none">MORE STORIES</h3>
+                  <div class="d-md-flex d-none more-stories">
+                     <img
+                        src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image" />
+                     <div class="stories pl-3">
+                        <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                     </div>
+                  </div>
+                        <p class="headline-detail d-md-flex d-none pl-3">The latest survey from the Public Religion Research Institute found
+                           that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                  </div>
+   
+                  <div class="col-12 ml-3">
+                     <div class="d-md-flex d-none more-stories">
+                        <img
+                           src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image" />
+                        <div class="stories pl-3">
+                           <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                        </div>
+                     </div>
+                           <p class="headline-detail d-md-flex d-none pl-3">The latest survey from the Public Religion Research Institute found
+                              that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                     </div>
+   
+                     <div class="col-12 ml-3">
+                        <div class="d-md-flex d-none more-stories">
+                           <img
+                              src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                           <div class="stories pl-3">
+                              <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                           </div>
+                        </div>
+                              <p class="headline-detail d-md-flex d-none pl-3">The latest survey from the Public Religion Research Institute found
+                                 that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                        </div>
+   
+                        <div class="col-12 ml-3">
+                           <div class="d-md-flex d-none more-stories">
+                              <img
+                                 src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                              <div class="stories pl-3">
+                                 <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                              </div>
+                           </div>
+                                 <p class="headline-detail d-md-flex d-none pl-3">The latest survey from the Public Religion Research Institute found
+                                    that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                           </div>
+
+
+
+                           <div class="col-12 ml-3">
+                              <div class="d-md-flex d-none more-stories">
+                                 <img
+                                    src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                 <div class="stories pl-3">
+                                    <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                 </div>
+                              </div>
+                                    <p class="headline-detail d-md-flex d-none pl-3">The latest survey from the Public Religion Research Institute found
+                                       that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                              </div>
+
+   
+                              <div class="col-12 ml-3">
+                                 <div class="d-md-flex d-none more-stories">
+                                    <img
+                                       src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                    <div class="stories pl-3">
+                                       <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                    </div>
+                                 </div>
+                                       <p class="headline-detail d-md-flex d-none pl-3">The latest survey from the Public Religion Research Institute found
+                                          that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                                 </div>
+   
+                                 <div class="col-12 ml-3">
+                                    <div class="d-md-flex d-none more-stories">
+                                       <img
+                                          src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                       <div class="stories pl-3">
+                                          <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                       </div>
+                                    </div>
+                                          <p class="headline-detail d-md-flex d-none pl-3">The latest survey from the Public Religion Research Institute found
+                                             that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                                    </div>
+   
+   
+                                    <div class="col-12 ml-3">
+                                       <div class="d-md-flex d-none more-stories">
+                                          <img
+                                             src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                          <div class="stories pl-3">
+                                             <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                          </div>
+                                       </div>
+                                             <p class="headline-detail d-md-flex d-none pl-3">The latest survey from the Public Religion Research Institute found
+                                                that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                                       </div>
+   
+                                       <div class="col-12 ml-3">
+                                          <div class="d-md-flex d-none more-stories">
+                                             <img
+                                                src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                             <div class="stories pl-3">
+                                                <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                             </div>
+                                          </div>
+                                                <p class="headline-detail d-md-flex d-none pl-1">The latest survey from the Public Religion Research Institute found
+                                                   that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                                          </div>
+   
+                                          <div class="col-12 ml-3">
+                                             <div class="d-md-flex d-none more-stories">
+                                                <img
+                                                   src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                                <div class="stories pl-3">
+                                                   <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                                </div>
+                                             </div>
+                                                   <p class="headline-detail d-md-flex d-none pl-3">The latest survey from the Public Religion Research Institute found
+                                                      that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                                             </div>
+   
+                                             <div class="col-12 ml-3">
+                                                <div class="d-md-flex d-none more-stories">
+                                                   <img
+                                                      src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                                   <div class="stories pl-3">
+                                                      <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                                   </div>
+                                                </div>
+                                                      <p class="headline-detail d-md-flex d-none pl-3">The latest survey from the Public Religion Research Institute found
+                                                         that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                                                </div>
+   
+                                                <div class="col-12 ml-3">
+                                                   <div class="d-md-flex d-none more-stories">
+                                                      <img
+                                                         src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                                      <div class="stories pl-3">
+                                                         <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                                      </div>
+                                                   </div>
+                                                         <p class="headline-detail d-md-flex d-none pl-3">The latest survey from the Public Religion Research Institute found
+                                                            that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                                                   </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 order-md-1 col-lg-4 order-2 mt-1 pt-1 back1">
+               <h3 class="featured-story pl-3  grey">FEATURED STORIES</h3>
+               <div class="headline-image pl-3 pr-1">
+                  <img
+                     src="https://d.newsweek.com/en/full/1654964/president-donald-trump-carson-city-nevada.jpg?w=397&h=265&q=90&f=d5abaaab4695ba301521b638bc32a537" alt="headline-image"/>
+               </div>
+               <div class="headline1 pt-1 pl-4">
+                  <h2>Trump's 'Lock Him Up' Rally Attacks on Biden Echo Campaign Against Clinton</h2>
+               </div>
+
+               <div class="headline-detail pl-4">
+                  <p>The president's supporters called for Joe Biden to be locked up at rallies in Nevada and Florida
+                     over the weekend..</p>
+               </div>
+            
+        
+
+               <div class="col-12 pt-3  col-lg-4 order-3">
+                  <div class="headline-image pt-3 pr-1">
+                     <img
+                        src="https://d.newsweek.com/en/full/1654975/facebook-logo.jpg?w=397&h=265&q=90&f=9c2ad01850c391e1ce64868f365114ff" alt="headline-image"/>
+                  </div>
+                  <div class="headline1 pt-1">
+                     <h2>150 Million Facebook Posts Interfering With Voters Discovered on Platform</h2>
+                  </div>
+
+                  <div class="headline-detail ">
+                     <p>The company has also rejected 2.2 million ads designed to suppress voting.</p>
+                  </div>
+               </div>
+
+
+               <div class="col-12 pt-3  col-lg-4 order-4">
+                  <div class="headline-image pt-3 pr-1">
+                     <img
+                        src="https://d.newsweek.com/en/full/1658318/donald-trump-melania-halloween.jpg?w=397&h=265&q=90&f=dce400106e66a873d63e7e7c0c4d2592" alt="headline-image"/>
+                  </div>
+                  <div class="headline1 pt-1">
+                     <h2>Trump Scolds 60 Minutes 'Tough Questions' but Critics Saw 'Whiny' President</h2>
+                  </div>
+
+                  <div class="headline-detail ">
+                     <p>The president has criticized the CBS interview, but some commentators did not see things Trump's way.</p>
+                  </div>
+               </div>
+         
+      
+   
+
+            <div class="col-12 pt-3 order-5">
+               <div class="headline-image pt-3 pr-1">
+                  <img
+                     src="https://d.newsweek.com/en/full/1654993/china-economy-retail.jpg?w=397&h=265&q=90&f=8b0ebf33fe1fc716a62fb85754dbef9d" alt="headline-image"/>
+               </div>
+               <div class="headline1 pt-1">
+                  <h2>China Outshines U.S. as First Major Economy to Recover From Pandemic</h2>
+               </div>
+
+               <div class="headline-detail ">
+                  <p>China's economy grew 4.9 percent between July and September compared to the same quarter last year,
+                     a little slower than expected but signaling a strong recovery.</p>
+               </div>
+
+               <div class="col-12 pt-3 ml-n3 order-5">
+                  <div class="headline-image pt-3 pr-3">
+                     <img
+                        src="https://d.newsweek.com/en/full/1655008/boston.jpg?w=397&h=265&q=90&f=2c252bdd1159b38fa23159ef9433564d" alt="headline-image" />
+                  </div>
+                  <div class="headline1 pt-1">
+                     <h2>Donald Trump Cutout Set on Fire, Two Arrested at Dueling Boston Protests</h2>
+                  </div>
+
+                  <div class="headline-detail">
+                     <p>After a Trump-supporting group organized a rally, billed as a "Peaceful Protest Against Democrat
+                        Violence," at least three groups galvanized counter-protesters.</p>
+                  </div>
+               </div>
+            </div>
+            </div>
+
+
+
+            <div class="d-flex flex-column mt-2 pt-3 pl-4 col-12 col-lg-3 order-3">
+               <h3 class="size grey pb-2">THE DEBATE</h3>
+               <div class="debate-section d-flex">
+                  <div class="debate-img pt-5">
+                     <img
+                        src="https://d.newsweek.com/en/full/1590519/claire-finkelstein-richard-w-painter-2.png?w=150&h=150&f=890e9e80b6653bf527efb8506fb2601b" alt="headline-image" />
+                  </div>
+                  <div class="d-flex flex-column debate1  pt-3 pl-4">
+                     <div class="headline1">
+                        <h2>McConnell's Rush to Confirm Barrett Ignores Crucial Questions of Principle</h2>
+                     </div>
+                     <p class="gray thickness">BY CLAIRE O. FINKELSTEIN AND RICHARD W. PAINTER</p>
+                  </div>
+               </div>
+
+               <hr class="thick">
+               <div class="vs">VS</div>
+
+               <div class="debate2 debate1 d-flex mt-3">
+                  <div class="headline1">
+                     <h2>On Supreme Court Nominations, All that Counts is the Constitution
+                     </h2>
+                     <p class="gray thickness">BY ANDREW C. MCCARTHY</p>
+                  </div>
+
+                  <div class="debate-img pt-3 mar-r">
+                     <img
+                        src="https://d.newsweek.com/en/full/1639701/andrew-c-mccarthy.png?w=150&h=150&f=3e552338567abfe5626df5a9715e8d4f" alt="headline-image"/>
+                  </div>
+               </div>
+            
+
+            <div class="pl-2 pt-3 mt-2">
+               <h3 class="grey">OPINION</h3>
+               <div class="d-flex debate-img bp">
+                  <img
+                     src="https://d.newsweek.com/en/full/1595774/gordon-chang.png?w=63&h=63&f=e6ac7c2e3f20ff658db6088a2c2ebef7" alt="headline-image"/>
+                  <div class="opinion pl-2">
+                     <h2>How to Avoid Hot War With Ruthless China</h2>
+                     <p class="gray thickness">BY GORDON G. CHANG</p>
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="pl-2 pt-3">
+               <div class="d-flex debate-img bp">
+                  <img
+                     src="https://d.newsweek.com/en/full/1588525/ben-weingarten.png?w=63&h=63&f=3ceac884d01583e5d88448bd31af70b1" alt="headline-image"/>
+                  <div class="opinion pl-2">
+                     <h2>Mark Cuban's Comments on Communist China</h2>
+                     <p class="gray thickness">BY BEN WEINGARTEN</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="pl-2 pt-3">
+               <div class="d-flex debate-img bp">
+                  <img
+                     src="https://d.newsweek.com/en/full/1605652/rabbi-yaakov-menken.png?w=63&h=63&f=0701b265999664e221828595bef36e4f" alt="headline-image"/>
+                  <div class="opinion pl-2">
+                     <h2>There is No Jewish Vote—There are Two, Diametrically Opposed</h2>
+                     <p class="gray thickness">BY RABBI YAAKOV MENKEN</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="pl-2 pt-3">
+               <div class="d-flex debate-img bp">
+                  <img
+                     src="https://d.newsweek.com/en/full/1605652/rabbi-yaakov-menken.png?w=63&h=63&f=0701b265999664e221828595bef36e4f" alt="headline-image"/>
+                  <div class="opinion pl-2">
+                     <h2>There is No Jewish Vote—There are Two, Diametrically Opposed</h2>
+                     <p class="gray thickness">BY RABBI YAAKOV MENKEN</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="pl-2 pt-3">
+               <div class="d-flex debate-img bp">
+                  <img
+                     src="https://d.newsweek.com/en/full/1605652/rabbi-yaakov-menken.png?w=63&h=63&f=0701b265999664e221828595bef36e4f" alt="headline-image"/>
+                  <div class="opinion pl-2">
+                     <h2>There is No Jewish Vote—There are Two, Diametrically Opposed</h2>
+                     <p class="gray thickness">BY RABBI YAAKOV MENKEN</p>
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="pl-2 pt-3">
+               <div class="d-flex debate-img bp">
+                  <img
+                     src="https://d.newsweek.com/en/full/1654388/libresco.png?w=63&h=63&f=d5f8d9cc3f1ca8e1c176e6d9344905f4" alt="headline-image"/>
+                  <div class="opinion pl-2">
+                     <h2>Bridging the Divide Within Feminism</h2>
+                     <p class="gray thickness">BY LEAH LIBRESCO SARGEANT</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="pl-2 pt-3">
+               <div class="d-flex debate-img">
+                  <img
+                     src="https://d.newsweek.com/en/full/1577421/hank-gilman.png?w=63&h=63&f=f18b9a7364da071493072861d8b4448f" alt="headline-image"/>
+                  <div class="opinion pl-2">
+                     <h2>Why Amazon and Jeff Bezos Don't Deserve All That Hate</h2>
+                     <p class="gray thickness">BY HANK GILMAN</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+              <div class="free-trials ml-3 d-md-block d-none d-lg-block wid">
+               <span class="icon-n"></span>
+               <div class="trial-offer">START YOUR DAY WITH OUR TOP 5 ARTICLES</div>
+               <input type="email" placeholder="Email address">
+               <button type="button">FREE SIGN UP </button>
+              </div>
+            </div>
+         </div>
+      </div>
+
+
+            <div class="col-12 d-md-none d-lg-none border-top pt-3">
+               <h3 class="grey">MORE STORIES</h3>
+               <div class="d-flex more-stories">
+                  <img
+                     src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                  <div class="stories pl-3">
+                     <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                  </div>
+               </div>
+                     <p class="headline-detail pl-3">The latest survey from the Public Religion Research Institute found
+                        that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+               </div>
+
+               <div class="col-12 d-md-none d-lg-none border-top pt-3">
+                  <div class="d-flex more-stories">
+                     <img
+                        src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                     <div class="stories pl-3">
+                        <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                     </div>
+                  </div>
+                        <p class="headline-detail pl-3">The latest survey from the Public Religion Research Institute found
+                           that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                  </div>
+
+                  <div class="col-12 d-md-none d-lg-none border-top pt-3">
+                     <div class="d-flex more-stories">
+                        <img
+                           src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                        <div class="stories pl-3">
+                           <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                        </div>
+                     </div>
+                           <p class="headline-detail pl-3">The latest survey from the Public Religion Research Institute found
+                              that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                     </div>
+
+                     <div class="col-12 d-md-none d-lg-none border-top pt-3">
+                        <div class="d-flex more-stories">
+                           <img
+                              src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                           <div class="stories pl-3">
+                              <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                           </div>
+                        </div>
+                              <p class="headline-detail pl-3">The latest survey from the Public Religion Research Institute found
+                                 that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                        </div>
+
+                        <div class="col-12 d-md-none d-lg-none border-top pt-3">
+                           <div class="d-flex more-stories">
+                              <img
+                                 src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                              <div class="stories pl-3">
+                                 <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                              </div>
+                           </div>
+                                 <p class="headline-detail pl-3">The latest survey from the Public Religion Research Institute found
+                                    that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                           </div>
+
+                           <div class="col-12 d-md-none d-lg-none border-top pt-3">
+                              <div class="d-flex more-stories">
+                                 <img
+                                    src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                 <div class="stories pl-3">
+                                    <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                 </div>
+                              </div>
+                                    <p class="headline-detail pl-3">The latest survey from the Public Religion Research Institute found
+                                       that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                              </div>
+
+                              <div class="col-12 d-md-none d-lg-none border-top pt-3">
+                                 <div class="d-flex more-stories">
+                                    <img
+                                       src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                    <div class="stories pl-3">
+                                       <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                    </div>
+                                 </div>
+                                       <p class="headline-detail pl-3">The latest survey from the Public Religion Research Institute found
+                                          that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                                 </div>
+
+
+                                 <div class="col-12 d-md-none d-lg-none  border-top pt-3">
+                                    <div class="d-flex more-stories">
+                                       <img
+                                          src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                       <div class="stories pl-3">
+                                          <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                       </div>
+                                    </div>
+                                          <p class="headline-detail pl-3">The latest survey from the Public Religion Research Institute found
+                                             that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                                    </div>
+
+                                    <div class="col-12 d-md-none d-lg-none border-top pt-3">
+                                       <div class="d-flex more-stories">
+                                          <img
+                                             src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                          <div class="stories pl-3">
+                                             <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                          </div>
+                                       </div>
+                                             <p class="headline-detail pl-1">The latest survey from the Public Religion Research Institute found
+                                                that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                                       </div>
+
+                                       <div class="col-12 d-md-none d-lg-none border-top pt-3">
+                                          <div class="d-flex more-stories">
+                                             <img
+                                                src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                             <div class="stories pl-3">
+                                                <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                             </div>
+                                          </div>
+                                                <p class="headline-detail pl-3">The latest survey from the Public Religion Research Institute found
+                                                   that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                                          </div>
+
+                                          <div class="col-12 d-md-none d-lg-none border-top pt-3">
+                                             <div class="d-flex more-stories">
+                                                <img
+                                                   src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                                <div class="stories pl-3">
+                                                   <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                                </div>
+                                             </div>
+                                                   <p class="headline-detail pl-3">The latest survey from the Public Religion Research Institute found
+                                                      that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                                             </div>
+
+                                             <div class="col-12 d-md-none d-lg-none border-top pt-3">
+                                                <div class="d-flex more-stories">
+                                                   <img
+                                                      src="https://d.newsweek.com/en/full/1655133/president-donald-trump-carson-city-nevada.jpg?w=95&h=95&f=66bba37808bcdb8a6d4e1f64e8a05b78" alt="headline-image"/>
+                                                   <div class="stories pl-3">
+                                                      <h2>Most Americans 'Not at All Confident' Trump Will Concede Office: Poll</h2>
+                                                   </div>
+                                                </div>
+                                                      <p class="headline-detail pl-3">The latest survey from the Public Religion Research Institute found
+                                                         that 55 percent of U.S. adults had "no confidence" in Trump conceding.</p>
+                                                </div>
+
+                                             
+                                                <div class="col-12 d-md-none d-lg-none ml-n3">
+                                                   <div class="myturn pl-3">
+                                                      <h3 class="grey">MY TURN</h3>
+                                                      <div class="row">
+                                                      <div class="col-12 col-md-4">
+                                                      <img
+                                                         src="https://d.newsweek.com/en/full/1654844/best-friends-love-relationships.jpg?w=397&h=397&f=459b5cc7b39a782b06f18534372af8c3" alt="headline-image"/>
+                                                      <h2 class="grey">'I Fell in Love With My Best Friend and Finally Asked Her Out'</h2>
+                                                   </div>
+                                 
+                                                      <div class="col-12 col-md-4">
+                                                      <img
+                                                      src="https://d.newsweek.com/en/full/1654844/best-friends-love-relationships.jpg?w=397&h=397&f=459b5cc7b39a782b06f18534372af8c3" alt="headline-image"/>
+                                                     <h2 class="grey">'I Fell in Love With My Best Friend and Finally Asked Her Out'</h2> 
+                                                   </div>
+                                 
+                                                   <div class="col-12 col-md-4">
+                                                     <img
+                                                     src="https://d.newsweek.com/en/full/1654844/best-friends-love-relationships.jpg?w=397&h=397&f=459b5cc7b39a782b06f18534372af8c3" alt="headline-image"/>
+                                                     <h2 class="grey">'I Fell in Love With My Best Friend and Finally Asked Her Out'</h2>
+                                                   </div>
+                                                </div>
+                                             
+                                        
+                                                <h3 class="grey">TRAVEL & CULTURE</h3>
+                                                 <div class="row">
+                                                    <div class="col-12 col-md-4">
+                                                     <img
+                                                     src="https://d.newsweek.com/en/full/1654844/best-friends-love-relationships.jpg?w=397&h=397&f=459b5cc7b39a782b06f18534372af8c3" alt="headline-image"/>
+                                                  <h2 class="grey">'I Fell in Love With My Best Friend and Finally Asked Her Out'</h2>
+                                                </div>
+                                 
+                                                <div class="col-12 col-md-4">
+                                                  <img
+                                                  src="https://d.newsweek.com/en/full/1654844/best-friends-love-relationships.jpg?w=397&h=397&f=459b5cc7b39a782b06f18534372af8c3" alt="headline-image"/>
+                                               <h2 class="grey">'I Fell in Love With My Best Friend and Finally Asked Her Out'</h2>
+                                             </div>
+                                 
+                                             <div class="col-12 col-md-4">
+                                               <img
+                                               src="https://d.newsweek.com/en/full/1654844/best-friends-love-relationships.jpg?w=397&h=397&f=459b5cc7b39a782b06f18534372af8c3" alt="headline-image"/>
+                                               <h2 class="grey">'I Fell in Love With My Best Friend and Finally Asked Her Out'</h2>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+
+                                    <div class="free-trials ml-3 d-md-none d-lg-none wid">
+                                       <span class="icon-n"></span>
+                                       <div class="trial-offer">START YOUR DAY WITH OUR TOP 5 ARTICLES</div>
+                                       <input type="email" placeholder="Email address">
+                                       <button type="button">FREE SIGN UP </button>
+                                      </div>
+
+                                             <div class="col-12 magazine-section">
+                                                <!-- ====== added margin to the In the magazine ======== -->
+                                                <div class="d-flex justify-content-center mb-5"> <div class="icon-n icon"></div> <div class="magazine-header">IN THE MAGAZINE </div></div>
+                                            
+                                                <div class="row magazine">
+                                                   <div class="col-12 col-md-3 image-diff mt-5">
+                                                <img
+                                                   src="https://d.newsweek.com/en/full/1653518/cover-october-23-2020.jpg?w=360&h=480&q=90&f=e8aecc49d91d80d4475f9fe710c46554" alt="headline-image"/>
+                                                   <p class="text-center">SEE ALL FEATURES <i class="fa fa-angle-right"></i> </p>
+                                                </div>
+
+                                                <div class="col-12 col-md-3">
+                                                <img
+                                                   src="https://d.newsweek.com/en/full/1649746/cover-qanon-banner.jpg?w=466&h=311&l=48&t=40&q=90&f=661310f59c90b9a906e0bbfd608f8481" alt="headline-image"/>
+                                                <div class="cover-headline pt-2">
+                                                   <h2><span class="cover">COVER</span> TECH & SCIENCE</h2>
+                                                </div>
+                                                   
+                                                <p class="bolder tab-adjust">As QAnon Conspiracies Spread, Scientists Fight a Misinformation
+                                                   Pandemic</p>
+                                                </div>
+
+                                                <div class="col-12 col-md-3">
+                                                   <img
+                                                   src="https://d.newsweek.com/en/full/1649746/cover-qanon-banner.jpg?w=466&h=311&l=48&t=40&q=90&f=661310f59c90b9a906e0bbfd608f8481" alt="headline-image"/>
+                                                <div class="cover-headline pt-2">
+                                                   <h2><span class="cover">COVER</span> TECH & SCIENCE</h2>
+                                                </div>
+                                                   
+                                                <p class="bolder tab-adjust">As QAnon Conspiracies Spread, Scientists Fight a Misinformation
+                                                   Pandemic</p>
+                                                </div>
+
+                                                <div class="col-12 col-md-3">
+                                                   <img
+                                                   src="https://d.newsweek.com/en/full/1649746/cover-qanon-banner.jpg?w=466&h=311&l=48&t=40&q=90&f=661310f59c90b9a906e0bbfd608f8481" alt="headline-image"/>
+                                                <div class="cover-headline pt-2">
+                                                   <h2><span class="cover">COVER</span> TECH & SCIENCE</h2>
+                                                </div>
+
+                                                <p class="bolder tab-adjust">As QAnon Conspiracies Spread, Scientists Fight a Misinformation
+                                                   Pandemic</p>
+                                                </div>
+                                             </div>
+
+                                             <div class="row magazine">
+                                                <div class="col-12 col-md-3">
+                                                   <img
+                                                   src="https://d.newsweek.com/en/full/1649746/cover-qanon-banner.jpg?w=466&h=311&l=48&t=40&q=90&f=661310f59c90b9a906e0bbfd608f8481" alt="headline-image"/>
+                                                <div class="cover-headline pt-2">
+                                                   <h2><span class="cover">COVER</span> TECH & SCIENCE</h2>
+                                                </div>
+                                                   
+                                                <p class="bolder tab-adjust">As QAnon Conspiracies Spread, Scientists Fight a Misinformation
+                                                   Pandemic</p>
+                                                </div>
+
+                                                <div class="col-12 col-md-3">
+                                                   <img
+                                                   src="https://d.newsweek.com/en/full/1649746/cover-qanon-banner.jpg?w=466&h=311&l=48&t=40&q=90&f=661310f59c90b9a906e0bbfd608f8481" alt="headline-image"/>
+                                                <div class="cover-headline pt-2">
+                                                   <h2><span class="cover">COVER</span> TECH & SCIENCE</h2>
+                                                </div>
+                                                   
+                                                <p class="bolder tab-adjust">As QAnon Conspiracies Spread, Scientists Fight a Misinformation
+                                                   Pandemic</p>
+                                                </div>
+
+                                                <div class="col-12 col-md-3">
+                                                   <img
+                                                   src="https://d.newsweek.com/en/full/1649746/cover-qanon-banner.jpg?w=466&h=311&l=48&t=40&q=90&f=661310f59c90b9a906e0bbfd608f8481" alt="headline-image"/>
+                                                <div class="cover-headline pt-2">
+                                                   <h2><span class="cover">COVER</span> TECH & SCIENCE</h2>
+                                                </div>
+                                                   
+                                                <p class="bolder tab-adjust">As QAnon Conspiracies Spread, Scientists Fight a Misinformation
+                                                   Pandemic</p>
+                                                </div>
+                                             </div>
+                                          </div>
+
+
+
+                                             <div class="col-12 editors-pick">
+                                                <!-- ====== added margin to the editor's pick section ======== -->
+                                                <div class="d-flex justify-content-center mb-5"> <div class="icon-n icon"></div> <div class="magazine-header">EDITOR'S PICK </div></div>
+                                                  <div class="row editor-pick">
+                                                   <div class="col-12 col-md-6 col-lg-3">
+                                                <img
+                                                   src="https://d.newsweek.com/en/full/1654868/lisa-montgomery.jpg?w=397&h=295&f=5c1c09dde705426ec75c5bd33e4a4d55" alt="headline-image"/>
+                                                <h2 class="bolder">U.S. Schedules Execution Of Woman Who Killed Pregnant Woman, Cut
+                                                   Baby Out</h2>
+                                                <p class="headline-detail">Lisa Montgomery, the only woman on federal death row, is set to die
+                                                   by lethal injection at the federal penitentiary in Terre Haute,
+                                                   Indiana on December 8, the Department of Justice said.</p>
+                                                </div>
+                     
+
+                                             <div class="col-12 col-md-6 col-lg-3">
+                                                   <img
+                                                   src="https://d.newsweek.com/en/full/1654868/lisa-montgomery.jpg?w=397&h=295&f=5c1c09dde705426ec75c5bd33e4a4d55" alt="headline-image"/>
+                                                <h2 class="bolder">U.S. Schedules Execution Of Woman Who Killed Pregnant Woman, Cut
+                                                   Baby Out</h2>
+                                                <p class="headline-detail">Lisa Montgomery, the only woman on federal death row, is set to die
+                                                   by lethal injection at the federal penitentiary in Terre Haute,
+                                                   Indiana on December 8, the Department of Justice said.</p>
+                                                </div>
+
+                                                <div class="col-12 col-md-6 col-lg-3 pl-3">
+                                                   <img
+                                                   src="https://d.newsweek.com/en/full/1654868/lisa-montgomery.jpg?w=397&h=295&f=5c1c09dde705426ec75c5bd33e4a4d55" alt="headline-image"/>
+                                                <h2 class="bolder">U.S. Schedules Execution Of Woman Who Killed Pregnant Woman, Cut
+                                                   Baby Out</h2>
+                                                <p class="headline-detail">Lisa Montgomery, the only woman on federal death row, is set to die
+                                                   by lethal injection at the federal penitentiary in Terre Haute,
+                                                   Indiana on December 8, the Department of Justice said.</p>
+                                                </div>
+                                               
+
+                                                
+                                                <div class="col-12 col-md-6 col-lg-3">
+                                                   <img
+                                                   src="https://d.newsweek.com/en/full/1654868/lisa-montgomery.jpg?w=397&h=295&f=5c1c09dde705426ec75c5bd33e4a4d55" alt="headline-image"/>
+                                                <h2 class="bolder">U.S. Schedules Execution Of Woman Who Killed Pregnant Woman, Cut
+                                                   Baby Out</h2>
+                                                <p class="headline-detail">Lisa Montgomery, the only woman on federal death row, is set to die
+                                                   by lethal injection at the federal penitentiary in Terre Haute,
+                                                   Indiana on December 8, the Department of Justice said.</p>
+                                                </div>
+                                             </div>
+
+
+                                                <div class="row editor-pick">
+                                                <div class="col-12 col-md-6 col-lg-3 ">
+                                                   <img
+                                                   src="https://d.newsweek.com/en/full/1654868/lisa-montgomery.jpg?w=397&h=295&f=5c1c09dde705426ec75c5bd33e4a4d55" alt="headline-image"/>
+                                                <h2 class="bolder">U.S. Schedules Execution Of Woman Who Killed Pregnant Woman, Cut
+                                                   Baby Out</h2>
+                                                <p class="headline-detail">Lisa Montgomery, the only woman on federal death row, is set to die
+                                                   by lethal injection at the federal penitentiary in Terre Haute,
+                                                   Indiana on December 8, the Department of Justice said.</p>
+                                                </div>
+
+                                                <div class="col-12 col-md-6 col-lg-3">
+                                                   <img
+                                                   src="https://d.newsweek.com/en/full/1654868/lisa-montgomery.jpg?w=397&h=295&f=5c1c09dde705426ec75c5bd33e4a4d55" alt="headline-image"/>
+                                                <h2 class="bolder">U.S. Schedules Execution Of Woman Who Killed Pregnant Woman, Cut
+                                                   Baby Out</h2>
+                                                <p class="headline-detail">Lisa Montgomery, the only woman on federal death row, is set to die
+                                                   by lethal injection at the federal penitentiary in Terre Haute,
+                                                   Indiana on December 8, the Department of Justice said.</p>
+                                                </div>
+
+                                                <div class="col-12 col-md-6 col-lg-3">
+                                                   <img
+                                                   src="https://d.newsweek.com/en/full/1654868/lisa-montgomery.jpg?w=397&h=295&f=5c1c09dde705426ec75c5bd33e4a4d55" alt="headline-image"/>
+                                                <h2 class="bolder">U.S. Schedules Execution Of Woman Who Killed Pregnant Woman, Cut
+                                                   Baby Out</h2>
+                                                <p class="headline-detail">Lisa Montgomery, the only woman on federal death row, is set to die
+                                                   by lethal injection at the federal penitentiary in Terre Haute,
+                                                   Indiana on December 8, the Department of Justice said.</p>
+                                                </div>
+
+                                                
+                                                <div class="col-12 col-md-6 col-lg-3">
+                                                   <img
+                                                   src="https://d.newsweek.com/en/full/1654868/lisa-montgomery.jpg?w=397&h=295&f=5c1c09dde705426ec75c5bd33e4a4d55" alt="headline-image"/>
+                                                <h2 class="bolder">U.S. Schedules Execution Of Woman Who Killed Pregnant Woman, Cut
+                                                   Baby Out</h2>
+                                                <p class="headline-detail">Lisa Montgomery, the only woman on federal death row, is set to die
+                                                   by lethal injection at the federal penitentiary in Terre Haute,
+                                                   Indiana on December 8, the Department of Justice said.</p>
+                                                </div>
+                                                </div>
+                                             </div>
+                                             </div>
+                                             
+
+
+                                             <div class="row us ml-2 d-md-none d-lg-none">
+                                                <div class="col-12 col-md-4">
+                                                <h3 class="orangered">U.S</h3>
+                                                <img src="https://d.newsweek.com/en/full/1658370/joe-biden-wisconsin.jpg?w=397&h=265&f=89605eeadb6e9fb5158e1bd602b24c2d" alt="headline-image"/>
+                                                <p>New Poll Shows Biden's Lead Over Trump Grows to 9 Points in Wisconsin</p>
+                                             </div>
+
+                                             <div class="col-12 col-md-4">
+                                                <img src="https://d.newsweek.com/en/full/1658370/joe-biden-wisconsin.jpg?w=397&h=265&f=89605eeadb6e9fb5158e1bd602b24c2d" alt="headline-image"/>
+                                                <p>New Poll Shows Biden's Lead Over Trump Grows to 9 Points in Wisconsin</p>
+                                             </div>
+
+                                             <div class="col-12 col-md-4 us-sidesection">
+                                                <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+
+                                             <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+
+                                             <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+                                             </div>
+                                             </div>
+
+                                             <div class="row us ml-2 d-md-none d-lg-none">
+                                                <div class="col-12 col-md-4">
+                                                <h3 class="orangered">World</h3>
+                                                <img src="https://d.newsweek.com/en/full/1658370/joe-biden-wisconsin.jpg?w=397&h=265&f=89605eeadb6e9fb5158e1bd602b24c2d" alt="headline-image"/>
+                                                <p>New Poll Shows Biden's Lead Over Trump Grows to 9 Points in Wisconsin</p>
+                                             </div>
+
+                                             <div class="col-12 col-md-4">
+                                                <img src="https://d.newsweek.com/en/full/1658370/joe-biden-wisconsin.jpg?w=397&h=265&f=89605eeadb6e9fb5158e1bd602b24c2d" alt="headline-image"/>
+                                                <p>New Poll Shows Biden's Lead Over Trump Grows to 9 Points in Wisconsin</p>
+                                             </div>
+
+                                             <div class="col-12 col-md-4 us-sidesection">
+                                                <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+
+                                             <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+
+                                             <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+                                             </div>
+                                             </div>
+
+                                             <div class="row us ml-2 d-md-none d-lg-none">
+                                                <div class="col-12 col-md-4">
+                                                <h3 class="orangered">Business</h3>
+                                                <img src="https://d.newsweek.com/en/full/1658370/joe-biden-wisconsin.jpg?w=397&h=265&f=89605eeadb6e9fb5158e1bd602b24c2d" alt="headline-image"/>
+                                                <p>New Poll Shows Biden's Lead Over Trump Grows to 9 Points in Wisconsin</p>
+                                             </div>
+
+                                             <div class="col-12 col-md-4">
+                                                <img src="https://d.newsweek.com/en/full/1658370/joe-biden-wisconsin.jpg?w=397&h=265&f=89605eeadb6e9fb5158e1bd602b24c2d" alt="headline-image"/>
+                                                <p>New Poll Shows Biden's Lead Over Trump Grows to 9 Points in Wisconsin</p>
+                                             </div>
+
+                                             <div class="col-12 col-md-4 us-sidesection">
+                                                <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+
+                                             <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+
+                                             <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+                                             </div>
+                                             </div>
+
+                                             <div class="row us ml-2 d-md-none d-lg-none">
+                                                <div class="col-12 col-md-4">
+                                                <h3 class="orangered">Tech & Science</h3>
+                                                <img src="https://d.newsweek.com/en/full/1658370/joe-biden-wisconsin.jpg?w=397&h=265&f=89605eeadb6e9fb5158e1bd602b24c2d" alt="headline-image"/>
+                                                <p>New Poll Shows Biden's Lead Over Trump Grows to 9 Points in Wisconsin</p>
+                                             </div>
+
+                                             <div class="col-12 col-md-4">
+                                                <img src="https://d.newsweek.com/en/full/1658370/joe-biden-wisconsin.jpg?w=397&h=265&f=89605eeadb6e9fb5158e1bd602b24c2d" alt="headline-image"/>
+                                                <p>New Poll Shows Biden's Lead Over Trump Grows to 9 Points in Wisconsin</p>
+                                             </div>
+
+                                             <div class="col-12 col-md-4 us-sidesection">
+                                                <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+
+                                             <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+
+                                             <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+                                             </div>
+                                             </div>
+
+                                             <div class="row us ml-2 d-md-none d-lg-none">
+                                                <div class="col-12 col-md-4">
+                                                <h3 class="orangered">Culture</h3>
+                                                <img src="https://d.newsweek.com/en/full/1658370/joe-biden-wisconsin.jpg?w=397&h=265&f=89605eeadb6e9fb5158e1bd602b24c2d" alt="headline-image"/>
+                                                <p>New Poll Shows Biden's Lead Over Trump Grows to 9 Points in Wisconsin</p>
+                                             </div>
+
+                                             <div class="col-12 col-md-4">
+                                                <img src="https://d.newsweek.com/en/full/1658370/joe-biden-wisconsin.jpg?w=397&h=265&f=89605eeadb6e9fb5158e1bd602b24c2d" alt="headline-image"/>
+                                                <p>New Poll Shows Biden's Lead Over Trump Grows to 9 Points in Wisconsin</p>
+                                             </div>
+
+                                             <div class="col-12 col-md-4 us-sidesection">
+                                                <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+
+                                             <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+
+                                             <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+                                             </div>
+                                             </div>
+
+                                             <div class="row us ml-2 d-md-none d-lg-none">
+                                                <div class="col-12 col-md-4">
+                                                <h3 class="orangered">Sports</h3>
+                                                <img src="https://d.newsweek.com/en/full/1658370/joe-biden-wisconsin.jpg?w=397&h=265&f=89605eeadb6e9fb5158e1bd602b24c2d" alt="headline-image"/>
+                                                <p>New Poll Shows Biden's Lead Over Trump Grows to 9 Points in Wisconsin</p>
+                                             </div>
+
+                                             <div class="col-12 col-md-4">
+                                                <img src="https://d.newsweek.com/en/full/1658370/joe-biden-wisconsin.jpg?w=397&h=265&f=89605eeadb6e9fb5158e1bd602b24c2d" alt="headline-image"/>
+                                                <p>New Poll Shows Biden's Lead Over Trump Grows to 9 Points in Wisconsin</p>
+                                             </div>
+
+                                             <div class="col-12 col-md-4 us-sidesection">
+                                                <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+
+                                             <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+
+                                             <div class="d-flex mb-2">
+                                                <img src="https://d.newsweek.com/en/full/1658371/tropical-storm-zeta-record-hurricane-season.png?w=95&h=95&l=40&t=47&f=ad4cab61b5a24c31dbc9b7eb8854ac19" alt="headline-image"/>
+                                                <p class="ml-1">2020 Hurricane Season Breaks Record for Earliest 27th Named Storm</p>
+                                             </div>
+                                             </div>
+                                             </div>
+
+                                             
+                                          
+
+                                             <div class="d-flex flex-column  flex-lg-row subscribe-section ml-2">
+                                             <div class="subscribe position-relative col-12 col-md-12 col-lg-7 d-flex flex-column ">
+                                                <h3>SUBSCRIBE</h3>
+                                                <div class="d-md-flex md-mt">
+                                                   <div>
+                                                <div class="subs-first mt-5">
+                                                   <img
+                                                   src="https://d.newsweek.com/en/full/1643943/cover-october-09-16-2020.jpg?w=170&q=95&f=f8144d83a028a40fe7ea6a5ed615ded7" alt="headline-image"/>
+                                                </div>
+                                                <div class="subs-second">
+                                                   <img
+                                                   src="https://d.newsweek.com/en/full/1643943/cover-october-09-16-2020.jpg?w=170&q=95&f=f8144d83a028a40fe7ea6a5ed615ded7" alt="headline-image"/>
+                                                </div>
+                                             </div>
+
+                                                <div class="md-mmt">
+                                                <div class="subs-heading text-center">
+                                                <h2>In-depth Stories You Don't See Elsewhere About Topics You Want to
+                                                   Read!</h2>
+                                                </div>
+                                             
+                                                <div class="subs-package text-center">
+                                                <p class="headline-detail pt-5 ">All Access + Weekly Delivery.
+                                                   Choose A Membership That's Perfect for You!</p>
+                                                </div>
+                                                   <div class="d-flex justify-content-center">
+                                                      <button type="button">SUBSCRIBE <i class="fa fa-angle-right"></i></button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+
+                                             <div class="d-flex col-12 col-md-12 col-lg-5 mt-5">
+                                                <div class="flex-column newsletter">
+                                                <h3>NEWSLETTER</h3>
+                                                <div class="row">
+                                                <div class="col-12 col-md-6 col-lg-6">
+                                                <img class="img-newsletter"
+                                                   src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" alt="headline-image"/>
+                                                </div>
+                                                   <div class="d-flex flex-column justify-content-center col-12 col-md-6 col-lg-6">
+                                                   <h2>THE STARTING 5</h2>
+                                                <p class="headline-detail">See why nearly a quarter of a million subscribers begin their day
+                                                   with the Starting 5.</p>
+                                                <div class="d-flex flex-lg-column newsletter-input mb-5">
+                                                   <input type="email" placeholder="Email address">
+                                                   <button type="button">FREE SIGN UP <i class="fa fa-angle-right"></i></button>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    </div>
+   </main>
+
+   <footer>
+      <div class="row footer-detail">
+      <div class="d-flex  col-12  flex-md-row flex-column col-md-12 col-lg-12 pt-0 ml-4 mt-3">
+      <div class="footer-logo pl-3 ml-2">
+      <svg version="1.1" id="Layer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+         x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+         <g>
+            <path class="st0"
+               d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+            </path>
+         </g>
+      </svg>
+   </div>
+      <div class="pt-4 d-flex col-12 col-md-4 flex-md-row mt-n3 ml-1 gray"><span class="digital">© 2020 NEWSWEEK DIGITAL LLC</span></div>
+      
+      <div class="social-icons col-12  col-md-4 mb-4 col-lg-6 d-md-flex justify-content-end"> 
+         <i class="fa fa-facebook-square ml-2"></i>
+         <i class="fa fa-twitter ml-2"></i>
+         <i class="fa fa-instagram ml-2"></i>
+         <i class="fa fa-tumblr-square ml-2"></i>
+         <i class="fa fa-linkedin ml-2"></i>
+      </div>
+   </div>
+</div>
+      
+      <div class="row mt-3">
+       <div class="col-12">
+      <ul class="footer-list d-flex flex-wrap">
+         <li class=" f-weight ml-3"> Editions:</li>
+         <li class="ml-3"> U.S. Edition     </li>
+         <li class="ml-3"> 日本    </li>
+         <li class="ml-3"> Pakistan     </li>
+         <li class="ml-3"> Polska    </li>
+         <li class="ml-3"> România </li>
+      </ul>
+   </div>
+      <div class="col-12 page-detail">
+         <ul class="footer-list d-flex flex-wrap">
+         <li class="footer-element ml-3"> About Us   </li>
+         <li class="ml-3"> Corrections   </li>
+         <li class="ml-3"> Contact Us   </li>
+         <li class="ml-3"> Editorial Guidelines    </li>
+         <li class="ml-3"> Advertise    </li>
+         <li class="ml-3"> Copyright   </li>
+         <li class="ml-3"> Terms & Conditions   </li>
+         <li class="ml-3"> Privacy Policy   </li>
+         <li class="ml-3"> Cookie Policy   </li>
+         <li class="ml-3"> Terms of Sale   </li>
+         <li class="ml-3"> Archive   </li>
+         <li class="ml-3"> Announcements</li>
+      </ul>
+      </div>
+         
+      </div>
+   </footer>
+
+</body>
+
+</html>
