@@ -167,7 +167,8 @@
   }
 
   .newsletter-input input {
-    width: 100px;
+    width: 130px;
+    margin-bottom: 10px;
   }
 
   .magazine-section img {
@@ -179,3 +180,12 @@
 .login a {
   color: white;
 }
+
+@media (min-width: 990px){
+  .newsletter-input button {
+    width: 130px;
+  }
+}
+
+
+

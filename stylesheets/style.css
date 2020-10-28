@@ -357,3 +357,7 @@ button {
 .newsletter-input input {
   width: 150px;
 }
+
+.newsletter-input button {
+  width: 150px;
+}

@@ -128,8 +128,12 @@
 
 /* === Pictures from in the magazine sections fixed ==== */
 .magazine-section img {
-  width: 200px;
+  width: 240px;
   height: 230px;
+}
+
+.magazine-section p {
+  width: 255px;
 }
 
 .editors-pick img,
@@ -142,4 +146,7 @@
   width: 150px;
 }
 
-
+.newsletter-input input {
+  width: 150px;
+  margin-bottom: 10px;
+}
