@@ -181,11 +181,8 @@
   color: white;
 }
 
-@media (min-width: 990px){
+@media (min-width: 990px) {
   .newsletter-input button {
     width: 130px;
   }
 }
-
-
-
